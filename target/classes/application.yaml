@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+  application:
+    name: serviceinventory
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    constructor-detector: default
